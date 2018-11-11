@@ -1,5 +1,5 @@
 var mongoose =require('mongoose');
-var dburl = 'mongodb://localhost:27017/spark';
+var dburl = 'mongodb://admin:database1@ds129762.mlab.com:29762/spark';
 mongoose.connect(dburl);
 
 mongoose.connection.on('connected',function(){
