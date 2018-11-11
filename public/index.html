@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="spark">
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<title>sparck</title>
+</head>
+<body>
+	<my-navigation></my-navigation>
+<div class="container">
+	<div ng-view></div>
+</div>
+
+	<script src="node_modules/angular/angular.js"></script>
+	<script src="node_modules/angular-route/angular-route.js"></script>
+	<script src="angular-app/app.js"></script>
+	<script src="angular-app/user-list/user-list-controller.js"></script>
+	<script src="angular-app/user-display/user-display-controller.js"></script>
+	<script src="angular-app/user-data-factory/user-data-factory.js"></script>
+	<script src="angular-app/navigation-directive/navigation-directive.js"></script>
+</body>
+</html>

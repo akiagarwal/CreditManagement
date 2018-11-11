@@ -1,0 +1,19 @@
+{
+  "name": "credit",
+  "version": "1.0.0",
+  "description": "spark ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "akshay",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.5",
+    "angular-route": "^1.7.5",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "mongodb": "^2.2.33",
+    "mongoose": "^5.3.9"
+  }
+}

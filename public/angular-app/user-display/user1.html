@@ -1,0 +1,21 @@
+<h1 style="padding-left: 20px ;padding-top:50px">User name: {{vm1.user.name}}</h1>
+
+<h3 style="padding-left: 25px">Email Id</h3>
+<p style="padding-left: 30px">{{vm1.user.email}}</p>
+
+<h3 style="padding-left: 25px">Current credit balance</h3>
+<p style="padding-left: 30px">{{vm1.user.cu_credit}}</p>
+
+<p style="text-align: center; font-size: 15pt; "><b>Transfer credit</b><input type="checkbox" ng-model="isChecked"></p>
+
+<div ng-if="isChecked">
+<form style="text-align: center;" name="vm1.transferForm" ng-submit="vm1.addTransfer()">
+	
+	<p><b>Transfer to:</b><select name="userTo" required id="" ng-model="vm1.userTo"  ng-options="bene.name for bene in vm1.users"></select></p>
+	<br>
+	<p><b>Transfer value:</b><select  name="trValue" required id="" ng-model="vm1.trValue"  ng-options="val for val in [] |range:1:vm1.user.cu_credit"></select></p>
+	<br>
+	<button type="submit" class="btn btn-success"> Transfer</button>
+
+</form>
+</div>

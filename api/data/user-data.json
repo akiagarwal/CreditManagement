@@ -1,0 +1,81 @@
+[{
+	"_id": {
+		"$oid": "5be08c1931857e51932136b8"
+	},
+	"name": "akshay agarwal",
+	"email": "abc@xyz.com",
+	"cu_credit": 1000.0
+},
+{
+	"_id": {
+		"$oid": "5be08c1931857e51932136b9"
+	},
+	"name": "rohan",
+	"email": "hello@xyz.com",
+	"cu_credit": 5000.0
+},
+{
+	"_id": {
+		"$oid": "5be1bcd55d801ae49576c5a8"
+	},
+	"name": "samarth",
+	"email": "myname@xyz.com",
+	"cu_credit": 1800.0
+},
+{
+	"_id": {
+		"$oid": "5be1bcd55d801ae49576c5a9"
+	},
+	"name": "sakshi singh",
+	"email": "hello23@xyz.com",
+	"cu_credit": 2500.0
+},
+{
+	"_id": {
+		"$oid": "5be1bd155d801ae49576c5aa"
+	},
+	"name": "shashank jain",
+	"email": "myname22@xyz.com",
+	"cu_credit": 800.0
+},
+{
+	"_id": {
+		"$oid": "5be1bd155d801ae49576c5ab"
+	},
+	"name": "saloni",
+	"email": "hello123@xyz.com",
+	"cu_credit": 2800.0
+},
+{
+	"_id": {
+		"$oid": "5be1bd4d5d801ae49576c5ac"
+	},
+	"name": "rakesh kumar",
+	"email": "aloha22@xyz.com",
+	"cu_credit": 3800.0
+},
+{
+	"_id": {
+		"$oid": "5be1bd4d5d801ae49576c5ad"
+	},
+	"name": "abhinav",
+	"email": "myworld1@xyz.com",
+	"cu_credit": 1200.0
+},
+{
+	"_id": {
+		"$oid": "5be1bd9d5d801ae49576c5ae"
+	},
+	"name": "manohar das",
+	"email": "hackme2@xyz.com",
+	"cu_credit": 4000.0
+},
+{
+	"_id": {
+		"$oid": "5be1bd9d5d801ae49576c5af"
+	},
+	"name": "aditya raj",
+	"email": "myfest11@xyz.com",
+	"cu_credit": 2200.0
+}]
+
