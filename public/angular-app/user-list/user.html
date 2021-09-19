@@ -2,3 +2,18 @@
 <ul>
 	<li ng-repeat="user in vm.users "><a ng-href="#!/users/{{user._id}}">{{user.name}}</a></li>
 </ul>
+
+<p style="text-align: center; font-size: 15pt; "><b>Add new user</b><input type="checkbox" ng-model="isChecked"></p>
+<div ng-if="isChecked">
+	<form style="text-align: center;" name="vm.addUserForm" ng-submit="vm.addUser()">
+		
+		<p><b>UserName:</b><input type="text" name="name" placeholder = "username" required id="" ng-model="vm.name"></select></p>
+		<br>
+		<p><b>Email:</b><input type="email" required id="" placeholder = "emailid" ng-model="vm.email" ></select></p>
+		<br>
+		<p><b>Credit:</b><input type="number"  name="credit" placeholder = "credit balance" required id="" ng-model="vm.credit" ></select></p>
+		<br>
+		<button type="add" class="btn btn-success"> Add User</button>
+	
+	</form>
+	</div>

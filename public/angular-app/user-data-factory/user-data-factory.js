@@ -4,7 +4,8 @@ function userDataFactory($http){
 	return{
 		userList: userList,
 		userDisplay : userDisplay,
-		postTransfer:postTransfer
+		postTransfer:postTransfer,
+		postUser: postUser
 	};
 
 	function userList(){
@@ -18,6 +19,11 @@ function userDataFactory($http){
 	function postTransfer(postData){
 		console.log('re',postData);
 		return $http.post('/api/transfer',postData).then(complete).catch(failed);
+	}
+
+	function postUser(postData){
+		console.log('re',postData);
+		return $http.post('/api/user',postData).then(complete).catch(failed);
 	}
 
 	function complete(response){
