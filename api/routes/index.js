@@ -14,5 +14,9 @@ router
  .route('/transfer')
  .post(ctrlUsers.addTransfer);
 
+ router
+ .route('/user')
+ .post(ctrlUsers.addUser);
+
 
  module.exports = router;

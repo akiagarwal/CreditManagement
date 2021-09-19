@@ -99,3 +99,22 @@ module.exports.addTransfer = function(req,res){
 			}
 		});
 };
+
+module.exports.addUser = function(req,res){
+	console.log(req.body);
+	User
+		.create({
+			name:req.body.name,
+			email: req.body.email,
+			cu_credit : req.body.cu_credit
+		},function(err,resp){
+			if(err){
+				console.log('error creating user');
+			}
+			else {
+				res
+				.status(200)
+				.json("user added successfully");
+			}
+		});
+};
