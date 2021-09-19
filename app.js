@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 app.use('/api',routes);
 
-var server=app.listen(app.get('port'),function(){
+var server=app.listen(process.env.PORT || app.get('port'),function(){
 	var port  = server.address().port;
 	//console.log('magic! '+port);
 });
